@@ -16,6 +16,20 @@
     </v-navigation-drawer>
 
     <v-main>
+      <v-btn
+        class="mx-4"
+        color="primary"
+        to="/login"
+      >
+        Login
+      </v-btn>
+      <v-btn
+        class="mx-4"
+        color="primary"
+        to="/admin/products-list"
+      >
+        Products
+      </v-btn>
     </v-main>
   </v-app>
 </template>
